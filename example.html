@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>darktone-popover example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="build/build.css" type="text/css">
+    <style>
+      body {
+        font: 14px "Helvetica Neue", Helvetica, Arial;
+        padding: 80px;
+        color: #333;
+      }
+      h1 {
+        padding-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Darktone popover</h1>
+    <a href="#" id="trigger">Hungry?</a>
+    <script src="build/build.js"></script>
+    <script>
+      var o = require('component-jquery');
+      var Popover = require('component-popover');
+      var popover = new Popover('for lunch', 'Popover');
+      o('#trigger').click(function() {
+        popover.show('#trigger');
+      });
+    </script>
+  </body>
+</html>

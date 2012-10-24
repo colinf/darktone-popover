@@ -1,0 +1,17 @@
+{
+  "name": "darktone-popover",
+  "version": "0.0.1",
+  "description": "Darktone Popover theme",
+  "keywords": ["darktone", "theme", "popover"],
+  "dependencies": {
+    "colinf/darktone-tip": "*"
+  },
+  "development": {
+    "component/popover": "*",
+    "component/jquery": "*"
+  },
+  "styles": [
+    "style.css"
+  ],
+  "repo": "colinf/darktone-popover"
+}

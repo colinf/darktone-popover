@@ -1,0 +1,26 @@
+:root {
+  var-bgl-color: #333333;
+  var-bg-color: #4c4c4c;
+  var-bgh-color: #5c5c5c;
+}
+
+.popover .tip-inner {
+  padding: 0;
+  border: 2px solid var(bgl-color);
+  background: var(bg-color);
+  color: white;
+}
+
+.popover-title {
+  display: block;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 3px 0;
+  text-align: center;
+  border-bottom: 2px solid var(bgh-color);
+}
+
+.popover-content {
+  padding: 5px;
+}
