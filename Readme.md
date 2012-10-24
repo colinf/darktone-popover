@@ -5,7 +5,7 @@
 
   This is a theme for the [tip component](https://github.com/component/popover).
 
-  ![](http://f.cl.ly/items/2q443F2L0k2g1H3J142V/Image%202012.10.03%2016:19:48.png)
+  ![](http://f.cl.ly/items/3e26072D2Y2c44041l1E/Screen%20Shot%202012-10-24%20at%2015.57.31.png)
 
   It's part of a series of Darktone theme components and you may also wish to use the following:
 
@@ -21,13 +21,12 @@ $ component install colinf/darktone-popover
 ```
 But the best way to use it is to amend your component.json file to add the theme as a dependency. You can then use the `component build` command to install the required components.
 
-Make sure that you list **colinf/darktone-popover** after **component/popover** in your dependencies so that the styles from the theme override the styles in the tip component itself. Below is an example extract from a component.json which uses the darktone tip theme.
+It's best to list **colinf/darktone-popover** after **component/popover** in your dependencies so that the styles from the theme override any styles in the popover component itself. Below is an example extract from a component.json which uses the darktone-popover theme.
 
 ```json
 "dependencies": {
   "component/popover": "*",
-  "colinf/darktone-popover": "*",
-  "component/jquery": "*"
+  "colinf/darktone-popover": "*"
 }
 ```
 # License
