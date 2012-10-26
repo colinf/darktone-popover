@@ -1,12 +1,12 @@
 :root {
-  var-bgl-color: #333333;
+  var-bgl-color: #3f3f3f;
   var-bg-color: #4c4c4c;
   var-bgh-color: #5c5c5c
 }
 
 .popover .tip-inner {
   padding: 0;
-  border: 2px solid #333333;
+  border: 2px solid #3f3f3f;
   color: white
 }
 
