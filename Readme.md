@@ -10,7 +10,7 @@
   It's part of a series of Darktone theme components and you may also wish to use the following:
 
   * [darktone-calendar](https://github.com/colinf/darktone-calendar) - theme for component/calendar
-  * [darktone-top](https://github.com/colinf/darktone-tip) - theme for component/popover
+  * [darktone-tip](https://github.com/colinf/darktone-tip) - theme for component/popover
   * [darktone](https://github.com/colinf/darktone) - a combined theme for tip, popover & calendar
 
 ## Installation
