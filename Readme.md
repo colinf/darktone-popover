@@ -5,7 +5,7 @@
 
   This is a theme for the [tip component](https://github.com/component/popover).
 
-  ![](http://f.cl.ly/items/3e26072D2Y2c44041l1E/Screen%20Shot%202012-10-24%20at%2015.57.31.png)
+  ![](http://f.cl.ly/items/2s0E2l1y3i1o1a1x0z3p/Screen%20Shot%202012-10-30%20at%2012.27.44.png)
 
   It's part of a series of Darktone theme components and you may also wish to use the following:
 
